@@ -13,12 +13,12 @@ function App() {
     <BrowserRouter>
       <Navigation />
       <Routes>
-        <Route path='/' element={<Characters />} />
-        <Route path='/:id' element={<CardDetails />} />
-        <Route path='/episodes' element={<Episodes />}/>
-        <Route path='/episodes/:id' element={<CardDetails />} />
-        <Route path='/locations' element={<Locations />}/>
-        <Route path='/locations/:id' element={<CardDetails />} />
+        <Route path='/Rick-and-Morty/' element={<Characters />} />
+        <Route path='/Rick-and-Morty/:id' element={<CardDetails />} />
+        <Route path='/Rick-and-Morty/episodes' element={<Episodes />}/>
+        <Route path='/Rick-and-Morty/episodes/:id' element={<CardDetails />} />
+        <Route path='/Rick-and-Morty/locations' element={<Locations />}/>
+        <Route path='/Rick-and-Morty/locations/:id' element={<CardDetails />} />
       </Routes>
     </BrowserRouter>
     </>
