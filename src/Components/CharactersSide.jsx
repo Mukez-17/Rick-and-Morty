@@ -9,7 +9,7 @@ function SideNavbar({ setPageNumber, setStatus, setSpecies, setGender }) {
   var gender = ['Male', 'Female', 'Genderless', 'Unknown']
   return (
     <div style={{marginLeft:'25%'}}>
-      <h6 style={{textAlign:'center'}}>Filters</h6>
+      <h6 style={{textAlign:'center'}}>Filter</h6>
       <p
         onClick={() => {
           setPageNumber(1);
